@@ -1,0 +1,155 @@
+h1 {
+  color: red;
+  border-style: groove;
+  border-color: purple;
+  font-family: monospace;
+  text-align: center;
+  background-color: #dbf6e9;
+  padding: 2px;
+}
+
+.q {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid purple;
+  background-color: DarkTurquoise;
+}
+
+.block {
+  display: inline-block;
+  width: 70px;
+  height: 40px;
+  padding: 5px;
+  border: 5px solid #2978b5;
+  border-style: ridge;
+  background-color: #fbe0c4;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+a:hover {
+  color: red;
+}
+
+.p {
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.photo1 {
+  border-radius: 70%;
+  width: 150px;
+  height: 150px;
+  border: 4px solid purple;
+  padding: 5px;
+  position: absolute;
+  clear: both;
+  left: 450px;
+  top: 1080px;
+}
+
+.imag1 {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.photo2 {
+  border-radius: 70%;
+  width: 150px;
+  height: 150px;
+  border: 4px solid purple;
+  padding: 5px;
+  position: absolute;
+  left: 650px;
+  top: 1080px;
+}
+
+.photo3 {
+  border-radius: 70%;
+  width: 150px;
+  height: 150px;
+  border: 4px solid purple;
+  padding: 5px;
+  position: absolute;
+  left: 850px;
+  top: 1080px;
+}
+
+.photo4 {
+  border-radius: 70%;
+  width: 150px;
+  height: 150px;
+  border: 4px solid purple;
+  padding: 5px;
+  position: absolute;
+  left: 1050px;
+  top: 1080px;
+}
+
+.ph {
+  float: inherit;
+  background: white;
+  border: 1px solid black;
+  padding: 5px;
+  width: 170px;
+  height: 170px;
+  position: ansolute;
+}
+
+hr {
+  border-top: 4px dotted black;
+}
+
+#help {
+  position: relative;
+  width: 500px;
+  padding: 3px;
+  background: #f0f0f0;
+  font-family: cursive;
+  text-align: center;
+}
+
+.name {
+  color: purple;
+  font-family: cursive;
+}
+
+.button {
+  background-color: #fbe0c4;
+  border: none;
+  color: black;
+  border: 5px solid #2978b5;
+  padding: 15px 32px;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.atyrau {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hoVVer {
+  background-image: url(thnx.png);
+  width: 200px;
+  height: 150px;
+  float: right;
+}
+
+.hoVVer:hover {
+  background-image: url(smiling.png);
+  width: 170px;
+  height: 150px;
+  float: right;
+}
